@@ -5,7 +5,7 @@ Package.describe({
   git: 'https://github.com/meteor-useraccounts/bootstrap.git',
 });
 
-Package.on_use(function(api, where) {
+Package.onUse(function(api, where) {
   api.versionsFrom('METEOR@1.0');
 
   api.use([
